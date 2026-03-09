@@ -9,6 +9,10 @@ Esta carpeta contiene una configuración lista para desplegar **Mixpost Lite** c
 - Define variables en EasyPanel (recomendado) usando `.env.example` como referencia.
 - Opcional: si ejecutas localmente con Docker Compose, crea `.env` a partir de `.env.example`.
 
+Alternativa en EasyPanel (modo **Application**):
+
+- Este repositorio ya incluye `Dockerfile` en la raíz para que EasyPanel pueda construir sin error `open Dockerfile: no such file or directory`.
+
 ## 2) Variables mínimas obligatorias
 
 - `APP_KEY` (générala desde https://mixpost.app/tools/encryption-key-generator)
